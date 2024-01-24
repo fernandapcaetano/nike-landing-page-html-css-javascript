@@ -29,6 +29,11 @@
 </ul>
 <hr>
 <h2>Imagens</h2>
+<img src="https://github.com/fernandapcaetano/nike-landing-page-html-css-javascript/assets/93622629/b2e11215-56b8-4101-b2a6-d8a1257a3e8e">
+<img src="https://github.com/fernandapcaetano/nike-landing-page-html-css-javascript/assets/93622629/0e191591-3fcd-43d4-869d-7ad27db9efa2">
+
+
 ![imagem](https://github.com/fernandapcaetano/nike-landing-page-html-css-javascript/assets/93622629/b2e11215-56b8-4101-b2a6-d8a1257a3e8e)
+<br>
 ![imagem](https://github.com/fernandapcaetano/nike-landing-page-html-css-javascript/assets/93622629/0e191591-3fcd-43d4-869d-7ad27db9efa2)
 
