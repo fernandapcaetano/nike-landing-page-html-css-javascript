@@ -1,0 +1,96 @@
+section.product{
+    display: flex;
+    column-gap: 20px;
+}
+
+.product__information__photos h1.product__name{
+    color: var(--main-font-color);
+    width: 467px;
+    font-size: 72px;
+    font-weight: 800; 
+    margin-bottom: 15px;
+}
+.product__information__photos p.product__description{
+    font-size: 18px;
+    opacity: 0.6;
+    width: 500px;
+    margin-bottom: 30px;
+}
+.product__information__photos .product__bag{
+    display: flex;
+    column-gap: 22px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.product__information__photos .product__bag a{
+    background-color: var(--main-font-color);
+    color: var(--terciary-font-color);
+    padding: 16px 49px;
+    border-radius: 8px;
+    align-items: center;
+    width: 216px;
+}
+.product__information__photos .product__bag a:hover{
+    font-weight: 600;
+}
+.product__information__photos .product__bag p.product__price{
+    font-size: 30px;
+    font-weight: 600; 
+}
+
+.product__information__photos .product__photos ul{
+    display: flex;
+    column-gap: 20px;
+}
+.product__information__photos .product__photos ul li img{
+    width: 160px;
+    height: 144px; 
+    background-color: var(--terciary-font-color);
+    border-radius: 8px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+section.product .product__main-photo img{
+    width: 600px;
+    bottom: 20px;
+}
+
+.product__carrousel img{
+    width: 525px;
+    height: 400px;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+@media (max-width: 645px) {
+
+    .product__information__photos h1.product__name{
+        width: 100%;
+        font-size: 60px;
+    }
+    .product__information__photos p.product__description{
+        width: 100%;
+    }
+    .product__information__photos .product__bag{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        row-gap: 22px;
+    }
+    .product__information__photos .product__bag a{
+        padding: 10px 29px;
+        width: fit-content;
+    }
+
+    .product__information__photos .product__bag p.product__price{
+        font-size: 40px;
+    }
+    .product__information__photos .product__photos ul{
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    section.product .product__main-photo{
+        display: none;
+    }
+}

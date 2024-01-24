@@ -1,0 +1,39 @@
+@import url(header.css);
+@import url(product-section.css);
+
+:root{
+    --background-color: #E4DFDC;
+    --main-font-color: #2D2B2C;
+    --secondary-font-color: #000;
+    --terciary-font-color: #fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--background-color);
+    width: 1080px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+a, ul{
+    text-decoration: none;   
+    list-style: none;
+}
+
+@media (max-width: 645px) {
+    
+    body{
+        padding: 20px 10px;
+        width: 100%;
+    }
+}
+
